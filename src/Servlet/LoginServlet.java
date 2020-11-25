@@ -26,8 +26,8 @@ public class LoginServlet extends HttpServlet {
         LoginService loginService = new LoginService();
 
         User user = new User();
-        System.out.println(password);
-        System.out.println(school_num);
+//        System.out.println(password);
+//        System.out.println(school_num);
 
         try {
             user = loginService.isLogin(school_num, password);

@@ -39,7 +39,8 @@
                 </label>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
+<%--            <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>--%>
+            <a href="register.jsp">注册</a>
         </form>
 
     </div> <!-- /container -->

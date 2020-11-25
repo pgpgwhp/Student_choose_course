@@ -9,7 +9,7 @@ public class LoginService {
 
         UsersDao usersdao = new UsersDao();
         User user = usersdao.SelectUserByschoolnum(school_num);
-        System.out.println("+++++++++++++++++++++++++++++");
+//        System.out.println("+++++++++++++++++++++++++++++");
 //        System.out.println(user.getSchool_num());
 //        System.out.println(user.getPassword());
 
